@@ -1,0 +1,348 @@
+.contenedor {
+
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.ConteinerSkiButton {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 10%;
+    bottom: 5%;
+}
+
+#SkipButton {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 580;
+    border: 0px;
+    padding: 0px;
+}
+
+
+
+.forms {
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 210px;
+    background-color: rgba(24, 24, 24, 0.5);
+    border-radius: 20px;
+    color: aliceblue;
+    z-index: 2;
+}
+
+.forms1 {
+    display: none;
+}
+
+.FormConteiner {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.p1 {
+    margin: 0px;
+    color: red;
+    font-size: 1em;
+    font-weight: 600
+}
+
+.labelform1 {
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.labelform2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1em
+}
+
+.labelform11 {
+    margin-top: 7px;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.labelform22 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.label1 {
+    margin: 3px;
+    font-size: 17px;
+
+}
+
+
+
+.label2 {
+    margin: 3px;
+    font-size: 17px;
+}
+
+.forms button {
+    margin-top: 7px;
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #2f2f2f, #212121, #4a4c4a, #4c4c4c, #585858);
+    transition: all 0.3s ease-in-out;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+    font-size: 15.6px;
+    cursor: pointer;
+    
+}
+
+.forms button:hover {
+    color:rgb(185, 182, 182)
+ }
+ 
+ .forms button:active {
+     transform: translateY(2px) translateX(1px);
+     box-shadow: 0 0 0 0 black;
+ }
+
+.buttonSubmit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.SpanRegistro{
+    margin-top: 5px;
+    
+}
+
+.SpanLink{
+    color:rgb(229, 255, 0)
+}
+
+
+/*Extra small devices(phones, 600px and down)*/
+@media only screen and (min-width: 200px) {
+
+
+    .contenedor {
+
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+       
+
+    }
+
+
+.videoform {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    z-index: 1;
+
+}
+
+.ConteinerSkiButton {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 10%;
+    bottom: 20%;
+}
+
+#SkipButton {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 580;
+    border: 0px;
+    padding: 0px;
+}
+
+.forms {
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 224px;
+    background-color: rgba(24, 24, 24, 0.5);
+    border-radius: 20px;
+    color: aliceblue;
+    z-index: 2;
+}
+
+.input1 {
+    border-radius: 5px;
+    height: 23px;
+}
+
+.input2 {
+    border-radius: 5px;
+    height: 23px;
+}
+}
+
+@media only screen and (min-width: 600px) {
+
+
+    .contenedor {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+
+
+
+
+    .videoform {
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    
+    
+    .ConteinerSkiButton {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        height: 10%;
+        bottom: 10%;
+    }
+
+    #SkipButton {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background-color: transparent;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        font-weight: 580;
+        border: 0px;
+        padding: 0px;
+    }
+
+    .forms {
+        position: absolute;
+        left:50%;
+        transform: translateX(-50%);
+        width: 350px;
+        height: 210px;
+        background-color: rgba(24, 24, 24, 0.5);
+        border-radius: 20px;
+        color: aliceblue;
+        z-index: 2;
+    }
+    }
+
+/*Extra large devices(large laptops and desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) {
+
+    .contenedor {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+    
+    .videoform {
+        width: 100%;
+        height: 99.5%;
+        object-fit: cover;
+        z-index: 1;
+    
+    }
+
+    .forms {
+        position: absolute;
+        left:50%;
+        transform: translateX(-50%);
+        width: 400px;
+        height: 230px;
+        background-color: rgba(24, 24, 24, 0.5);
+        border-radius: 20px;
+        color: aliceblue;
+        z-index: 2;
+    }
+
+    .ConteinerSkiButton {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        height: 10%;
+        bottom: 5%;
+    }
+
+    #SkipButton {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background-color: transparent;
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        font-weight: 580;
+        border: 0px;
+        padding: 0px;
+    }
+}

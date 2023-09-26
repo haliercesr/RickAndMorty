@@ -1,0 +1,222 @@
+.titleDetailAbout {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.textDetailAbout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.textDetailAbout h2 {
+    margin: 5px
+}
+
+.textDetailAbout h3 {
+    margin: 5px
+}
+
+
+
+
+
+.LinkLinkedin {
+    color: yellow;
+}
+
+/*Extra small devices(phones, 600px and down)*/
+@media only screen and (min-width: 200px) {
+    .About {
+        width: 100%;
+        height: 100%;
+        background-image: url('../../../img/images.jpeg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: cover;
+
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .containerAbout {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(49, 48, 48, 0.5);
+        border-radius: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 560px;
+
+
+    }
+
+    .DetailAbout {
+        width: 300px;
+        height: 230px;
+        flex-direction: column;
+        color: aliceblue;
+        background-color: rgba(10, 10, 10, 0.687);
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+
+    .imgAbout img {
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        height: 300px;
+        width: 300px;
+    }
+
+    .titleDetailAbout {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textDetailAbout {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textDetailAbout h2 {
+        margin: 5px
+    }
+
+    .textDetailAbout h3 {
+        margin: 5px
+    }
+
+
+
+
+
+    .LinkLinkedin {
+        color: yellow;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .About {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        background-image: url('../../../img/fotor_2023-5-2_12_16_33.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        min-height: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .containerAbout {
+        
+        display: flex;
+        flex-direction: row;
+        width: 530px;
+        height: 270px;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(49, 48, 48, 0.5);
+        border-radius: 30px;
+
+
+    }
+
+    .DetailAbout {
+        width: 250px;
+        height: 250px;
+        flex-direction: column;
+        color: aliceblue;
+        background-color: rgba(10, 10, 10, 0.687);
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .imgAbout img {
+        border-top-right-radius: 30px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 30px;
+        height: 250px;
+        width: 250px;
+    }
+
+    .textDetailAbout h2 {
+        margin: 5px;
+        font-size: 25px;
+    }
+
+    .textDetailAbout h3 {
+        margin: 5px;
+        font-size: 17px;
+        text-align: center;
+    }
+}
+
+/*Extra large devices(large laptops and desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) {
+    .About {
+        width: 100vw;
+        height: 100vh;
+        background-image: url('../../../img/fotor_2023-5-2_12_16_33.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        min-height: 100%;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 50px;
+
+    }
+
+    .containerAbout {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        width: 700px;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(49, 48, 48, 0.5);
+        border-radius: 30px;
+
+
+    }
+
+    .DetailAbout {
+        width: 300px;
+        height: 300px;
+        flex-direction: column;
+        color: aliceblue;
+        background-color: rgba(10, 10, 10, 0.687);
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+
+    .imgAbout img {
+        border-top-right-radius: 30px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 30px;
+        height: 300px;
+        width: 300px;
+    }
+
+}

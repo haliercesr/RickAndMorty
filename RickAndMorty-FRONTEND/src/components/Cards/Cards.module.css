@@ -1,0 +1,218 @@
+.Cards {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+    max-width: 100vw;
+    min-height: 100vh;
+    background-image: url('../../../img/fotor_2023-5-2_12_16_33.jpg');
+    background-size: 100% 100%; /*esto hace que la imagen se adapte al tamaño de cualquier dispositivo deformandose si tiene que hacerlo*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.CardsConteinerH{
+   
+    margin-top: 100px;
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: top;
+    max-width: 100vw;
+    
+    
+}
+
+.Welcome{  
+    display: flex; 
+    height: 80%;
+
+}
+
+.WelcomeNone{
+    display: none;
+}
+
+.DivCard {
+    display: block;
+    flex-direction: column;
+    width: 600px;
+    height: 80% ;
+    padding: 5px;
+    background-color: rgba(49, 48, 48, 0.8);
+    border-radius: 15px;
+    
+    
+}
+
+.Divboton{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    color: white; 
+    border: 0px;
+  }
+
+  .buttonONClose{
+    border-radius: 5px;
+    background-color: rgba(49, 48, 48, 0.5);
+  }
+  
+  .buttonONClose:hover {
+      background-color: rgb(255, 2, 2); 
+      padding: red;
+      color: white;
+      
+    }
+
+
+
+.giftDance{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+
+}
+
+.giftDance img{
+    width: 20%;
+    height: 45%;
+}
+
+.DivCard p{
+    color:white
+}
+
+@media only screen and (min-width: 200px) {
+
+    .Welcome{  
+        display: flex; 
+        height: 80%;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .Cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: top;
+        max-width: 100vw;
+        min-height: 100vh;
+        background-image: url('../../../img/images.jpeg');
+        background-size: 100% 100%; /*esto hace que la imagen se adapte al tamaño de cualquier dispositivo deformandose si tiene que hacerlo*/
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+
+    .CardsConteinerH{
+   
+        margin-top: 60px;
+        min-height: 80vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: top;
+        max-width: 100vw;
+        
+        
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .Welcome{  
+        display: flex; 
+        height: 80%;
+    }
+
+    .Cards {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: top;
+        max-width: 100vw;
+        min-height: 100vh;
+        background-image: url('../../../img/t4XrVGqJ-wallha.com.jpg');
+        background-size: 100% 100%; /*esto hace que la imagen se adapte al tamaño de cualquier dispositivo deformandose si tiene que hacerlo*/
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+
+    .CardsConteinerH{
+   
+        
+        min-height: 80vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        max-width: 100vw;
+        
+        
+    }
+
+ 
+
+
+}
+
+/*Extra large devices(large laptops and desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) {
+   
+    .Welcome{  
+        display: flex; 
+        height: 80%;
+    }
+
+    .Cards {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100vw;
+        background-image: url('../../../img/t4XrVGqJ-wallha.com.jpg');
+        background-size: 100% 100%; /*esto hace que la imagen se adapte al tamaño de cualquier dispositivo deformandose si tiene que hacerlo*/
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .CardsConteinerH{
+   
+        margin-top: 0px;
+        min-height: 80vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: top;
+        max-width: 100vw;
+        
+        
+    }
+
+    .DivCard {
+        display: block;
+        flex-direction: column;
+        width: 600px;
+        height: 80% ;
+        padding: 5px;
+        background-color: rgba(49, 48, 48, 0.8);
+        border-radius: 15px;
+        
+        
+    }
+
+
+
+}
+
